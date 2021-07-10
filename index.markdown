@@ -11,6 +11,8 @@ Long story short, *sisyphe* relies on reproducible package management through th
 [^1]: We adopt the ACM [Artifact Review and Badging Version 1.1](https://www.acm.org/publications/policies/artifact-review-and-badging-current) terminology for the terms *repeatability*, *reproducibility* and *replicability*.
 
 
+{:toc}
+
 # FAQ
 
 ## Where is the source code for Sisyphe ?
@@ -33,7 +35,9 @@ You can browse and download the [NAR archives](https://nixos.org/guides/nix-pill
 
     nix-store --realise /nix/store/qv1i4k82wjslgq1pbxaphh420ca2pxlp-gnrc_networking \
               --option extra-substituters https://9c7341f9-95c5-48ea-ad95-670b0aff9698.cache.grunblatt.org/ \
-              --option trusted-public-keys bincache.grunblatt.org:ktUnzmIdQUSVIyu3XcgdKP6LtocaDGbWrOpVBJ62T4A=
+              --option require-sigs false
+
+<!-- --option trusted-public-keys bincache.grunblatt.org:ktUnzmIdQUSVIyu3XcgdKP6LtocaDGbWrOpVBJ62T4A= -->
 
 If the binary was available in the binary cache, it should now be present in the `/nix/store` hierarchy: 
 
@@ -43,10 +47,10 @@ If the binary was available in the binary cache, it should now be present in the
         drwxrwxr-t 6975 root nixbld 7,5M  6 juil. 09:56 ..
         -r-xr-xr-x    1 root root   2,9M  1 janv.  1970 gnrc_networking.elf
 
-The key signing those packages is either the cache.nixos.org key or the bincache.grunblatt.org key, whose public keys are:
+<!-- The key signing those packages is either the cache.nixos.org key or the bincache.grunblatt.org key, whose public keys are:
 
 - `cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY=`
-- `bincache.grunblatt.org:ktUnzmIdQUSVIyu3XcgdKP6LtocaDGbWrOpVBJ62T4A=`
+- `bincache.grunblatt.org:ktUnzmIdQUSVIyu3XcgdKP6LtocaDGbWrOpVBJ62T4A=` -->
 
 ## Can I propose some experiment to run on Sisyphe ?
 
