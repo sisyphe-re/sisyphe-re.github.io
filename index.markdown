@@ -10,8 +10,13 @@ Long story short, *sisyphe* relies on reproducible package management through th
 
 [^1]: We adopt the ACM [Artifact Review and Badging Version 1.1](https://www.acm.org/publications/policies/artifact-review-and-badging-current) terminology for the terms *repeatability*, *reproducibility* and *replicability*.
 
-
 {:toc}
+
+# Overview
+
+The following figure presents the main *workflow* followed by the sisyphe platform.
+
+[![Execution flow for a single run of a sisyphe campaign](/static/sisyphe_overview.svg)](/static/sisyphe_overview.svg)
 
 # FAQ
 
