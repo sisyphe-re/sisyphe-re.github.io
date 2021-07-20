@@ -453,14 +453,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="276.18034"
-     inkscape:cy="147.79072"
+     inkscape:cx="864.75282"
+     inkscape:cy="136.96315"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g1447"
      inkscape:document-rotation="0"
      showgrid="true"
-     inkscape:window-width="3836"
-     inkscape:window-height="2113"
+     inkscape:window-width="1916"
+     inkscape:window-height="1012"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -484,7 +484,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -757,7 +757,7 @@
              x="-75.368797"
              y="61.941917"
              style="stroke-width:0.264583"
-             id="tspan1261">into the Software Heritage archive</tspan></text>
+             id="tspan1261">the Software Heritage archive</tspan></text>
       </g>
       <g
          id="g1438"
